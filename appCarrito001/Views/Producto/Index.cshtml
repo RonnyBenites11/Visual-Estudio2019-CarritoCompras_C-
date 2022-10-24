@@ -1,0 +1,31 @@
+﻿
+@model IEnumerable<appCarrito001.Models.Producto>
+<br />
+
+<h2 class="text-center">Lista de Productos</h2>
+<table class="table table-condensed tbl_product">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Precio</th>
+            <th></th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th>@item.Id</th>
+                <th>@item.Nombre</th>
+                <th>@String.Format("{0:C}", item.Precio)</th>
+                <th>@Html.ActionLink("Agregar", "AgregarCarrito", "Carrito", new { Id = item.Id }, null)</th>
+            </tr>
+        }
+
+
+
+
+    </tbody>
+</table>

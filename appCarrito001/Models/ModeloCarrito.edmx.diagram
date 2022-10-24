@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="53c9d90f7a694e9e9e0d90211fc8c14f" Name="Diagram1">
+        <EntityTypeShape EntityType="CarritoBDModel.categorias" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarritoBDModel.productos" Width="1.5" PointX="5.25" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarritoBDModel.proveedores" Width="1.5" PointX="3" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarritoBDModel.Categoria" Width="1.5" PointX="7.75" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarritoBDModel.ListaVenta" Width="1.5" PointX="12.25" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarritoBDModel.Producto" Width="1.5" PointX="10" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarritoBDModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarritoBDModel.Venta" Width="1.5" PointX="10" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarritoBDModel.Cargos" Width="1.5" PointX="0.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarritoBDModel.Distritos" Width="1.5" PointX="0.75" PointY="13.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarritoBDModel.empleados" Width="1.5" PointX="3" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarritoBDModel.clientes" Width="1.5" PointX="3" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarritoBDModel.paises" Width="1.5" PointX="0.75" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarritoBDModel.pedidoscabe" Width="1.5" PointX="5.25" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarritoBDModel.pedidosdeta" Width="1.5" PointX="7.5" PointY="7.375" IsExpanded="true" />
+        <AssociationConnector Association="CarritoBDModel.FK__productos__IdCat__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="CarritoBDModel.FK__pedidosde__IdPro__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="CarritoBDModel.FK__pedidosde__IdPro__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="CarritoBDModel.FK__productos__IdPro__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="CarritoBDModel.FK__proveedor__idpai__2A4B4B5E" ManuallyRouted="false" />
+        <AssociationConnector Association="CarritoBDModel.FK__Producto__Catego__5FB337D6" ManuallyRouted="false" />
+        <AssociationConnector Association="CarritoBDModel.FK__ListaVent__Produ__656C112C" ManuallyRouted="false" />
+        <AssociationConnector Association="CarritoBDModel.FK__ListaVent__Venta__6477ECF3" ManuallyRouted="false" />
+        <AssociationConnector Association="CarritoBDModel.FK__empleados__idCar__35BCFE0A" ManuallyRouted="false" />
+        <AssociationConnector Association="CarritoBDModel.FK__empleados__idDis__34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="CarritoBDModel.FK__pedidosca__IdEmp__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="CarritoBDModel.FK__pedidosca__IdEmp__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="CarritoBDModel.FK__clientes__idpais__276EDEB3" ManuallyRouted="false" />
+        <AssociationConnector Association="CarritoBDModel.FK__pedidosca__IdCli__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="CarritoBDModel.FK__pedidosca__IdCli__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="CarritoBDModel.FK__pedidosde__IdPed__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="CarritoBDModel.FK__pedidosde__IdPed__4AB81AF0" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
